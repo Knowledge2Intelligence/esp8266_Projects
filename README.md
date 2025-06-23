@@ -82,10 +82,13 @@ Programming Using Arduino IDE
    **Upload Code**:  
    - `Tools > Board` இல் உங்கள் ESP8266 போர்டை (எ.கா., `NodeMCU 1.0`) தேர்ந்தெடுக்கவும்.  
      Select your ESP8266 board (e.g., `NodeMCU 1.0`) under `Tools > Board`.  
-   - நீங்கள் உங்கள் சொந்த நிரலை உருவாக்கலாம் அல்லது கொடுக்கப்பட்ட நிரலை Arduino IDE-இல் நகலெடுத்து ஒட்டலாம். 
-     You can make your own code or copy and paste the given code into the Arduino IDE.
-   - ESP8266 ஐ நிரலாக்க `Upload` ஐ கிளிக் செய்யவும்.  
+   - நீங்கள் உங்கள் சொந்த நிரலை உருவாக்கலாம் அல்லது கொடுக்கப்பட்ட [நிரலை]() Arduino IDE-இல் நகலெடுத்து ஒட்டலாம். 
+     You can make your own code or copy and paste the given [code]() into the Arduino IDE.
+   - ESP8266 ஐ நிரலாக்க `Upload` ஐ சொடுக்கவும்.  
      Click `Upload` to program the ESP8266.  
+
+விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும் ]().
+[Click Here]() for Detailed Explanation
 
 ## PlatformIO (VS Code) ஐப் பயன்படுத்தி நிரலாக்கம்  
 Programming Using PlatformIO (VS Code)  
@@ -105,19 +108,23 @@ Programming Using PlatformIO (VS Code)
      Connect LEDs to GPIO pins (e.g., D1, D2, D3) with resistors, as described above.
 4. **Write and Upload Code**:  
    **குறியீட்டை எழுதி பதிவேற்றவும்**:  
-   - Open the `src/main.cpp` file in your PlatformIO project.  
-     உங்கள் PlatformIO திட்டத்தில் `src/main.cpp` கோப்பை திறக்கவும்.  
-   - Your can make your own code or use the given code.  
-     நீங்கள் உங்கள் சொந்த குறியீட்டைப் உருவாக்கலாம் அல்லது கொடுக்கப்பட்ட குறியீட்டைப் பயன்படுத்தவும்.
-   - Click the PlatformIO `Upload` button to program the ESP8266.  
-     ESP8266 ஐ நிரலாக்க PlatformIO `Upload` பொத்தானை கிளிக் செய்யவும்.  
+   - உங்கள் PlatformIO திட்டத்தில் `src/main.cpp` கோப்பை திறக்கவும். 
+     Open the `src/main.cpp` file in your PlatformIO project.  
+   - நீங்கள் உங்கள் சொந்த குறியீட்டைப் உருவாக்கலாம் அல்லது கொடுக்கப்பட்ட [குறியீட்டைப்]() பயன்படுத்தவும்.
+     Your can make your own code or use the given [code]().  
+   - ESP8266 ஐ நிரலாக்க PlatformIO `Upload` பொத்தானை கிளிக் செய்யவும்.
+     Click the PlatformIO `Upload` button to program the ESP8266.  
+      
+
+விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும் ]().
+[Click Here]() for Detailed Explanation
 
 ## Programming Using ArduinoDroid  
 ### ArduinoDroid ஐப் பயன்படுத்தி நிரலாக்கம்  
 1. **Install ArduinoDroid**:  
    **ArduinoDroid ஐ நிறுவவும்**:  
-   - Google Play Store இலிருந்து ArduinoDroid செயலியை ஐ பதிவிறக்கவும். 
-     Download ArduinoDroid from the Google Play Store.  
+   - Google Play Store இலிருந்து ArduinoDroid செயலியை ஐ பதிவிறக்கவும். கூகுள் பிளே ஸ்டோரில் கிடைக்கவில்லை என்றால், நம்பகமான இணையதளத்தில் இருந்து APK கோப்பைப் பதிவிறக்கவும்.
+     Download ArduinoDroid from the Google Play Store. If not available on the Google Play Store, download the APK file from a legitimate website.
 2. **Set Up Board Support**:  
    **போர்டு ஆதரவை அமைக்கவும்**:  
    - ArduinoDroid இல், `Settings > Board Type` க்கு சென்று, உங்கள் ESP8266 போர்டை தேர்ந்தெடுத்து, கேட்கப்பட்டால் ESP8266 தொகுப்பை நிறுவவும்.
@@ -128,11 +135,12 @@ Programming Using PlatformIO (VS Code)
      Use an OTG cable to connect the ESP8266 to your Android device.  
    - LED-களை GPIO மின்னியல் கொம்புகளுடன் (எ.கா., D1, D2, D3) மின்தடையிகளுடன் இணைக்கவும்.
      Connect LEDs to GPIO pins (e.g., D1, D2, D3) with resistors.  
-     
 4. **Write and Upload Code**:  
    **குறியீட்டை எழுதி பதிவேற்றவும்**:  
-   - ArduinoDroid இல் புதிய நிரல் வரைவை உருவாக்கி, மேலே உள்ள அதே குறியீட்டை ஒட்டவும் அல்லது நீங்கள் உங்கள் சொந்த குறியீட்டைப் பயன்படுத்தலாம்.
-     Create a new sketch in ArduinoDroid and paste the same code as above or you can use your own code.  
+   - ArduinoDroid இல் புதிய நிரல் வரைவை உருவாக்கி, கொடுக்கப்பட்ட [குறியீட்டைப்]() பயன்படுத்தவும் அல்லது நீங்கள் உங்கள் சொந்த குறியீட்டைப் பயன்படுத்தலாம்.
+     Create a new sketch in ArduinoDroid and paste the given [code]() or you can use your own code.  
    - ESP8266 ஐ நிரலாக்க பதிவேற்ற பொத்தானை தட்டவும்.
      Tap the upload button to program the ESP8266.  
-     
+
+விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும் ]().
+[Click Here]() for Detailed Explanation
