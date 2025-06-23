@@ -1,31 +1,31 @@
-// LED பின்களை வரையறுக்கவும்
-const int led1 = D1; // முதல் LED இன் பின் D1 (GPIO 5) ஆக அமைக்கப்பட்டுள்ளது
-const int led2 = D2; // இரண்டாவது LED இன் பின் D2 (GPIO 4) ஆக அமைக்கப்பட்டுள்ளது
-const int led3 = D3; // மூன்றாவது LED இன் பின் D3 (GPIO 0) ஆக அமைக்கப்பட்டுள்ளது
+// மின்னியல் கொம்புகளை வரையறுக்கவும் Define LED pins
+const int led1 = D0; // முதல் LED இன் மின்னியல் கொம்பு D1 (GPIO 5) ஆக அமைக்கப்பட்டுள்ளது First LED pin set to D1 (GPIO 5)
+const int led2 = D1; // இரண்டாவது LED இன் மின்னியல் கொம்பு D2 (GPIO 4) ஆக அமைக்கப்பட்டுள்ளது Second LED pin set to D2 (GPIO 4)
+const int led3 = D2; // மூன்றாவது LED இன் மின்னியல் கொம்பு D3 (GPIO 0) ஆக அமைக்கப்பட்டுள்ளது Third LED pin set to D3 (GPIO 0)
 
-void setup() { // அமைவு செயல்பாடு: துவக்கத்தில் ஒரு முறை இயங்கும்
-  // LED பின்களை வெளியீடாக அமைக்கவும்
-  pinMode(led1, OUTPUT); // led1 பின்னை வெளியீடு (OUTPUT) ஆக அமைக்கிறது
-  pinMode(led2, OUTPUT); // led2 பின்னை வெளியீடு (OUTPUT) ஆக அமைக்கிறது
-  pinMode(led3, OUTPUT); // led3 பின்னை வெளியீடு (OUTPUT) ஆக அமைக்கிறது
+void setup() { // அமைவு செயல்பாடு: துவக்கத்தில் ஒரு முறை இயங்கும் Setup function: runs once at startup
+  // LED மின்னியல் கொம்புகளை வெளியீடாக அமைக்கவும்
+  pinMode(led1, OUTPUT); // LED1 மின்னியல் கொம்பை வெளியீடாக அமைக்கவும் 
+  pinMode(led2, OUTPUT); // LED2 மின்னியல் கொம்பை வெளியீடாக அமைக்கவும் 
+  pinMode(led3, OUTPUT); // LED3 மின்னியல் கொம்பை வெளியீடாக அமைக்கவும் 
 }
 
-void loop() { // வளைய செயல்பாடு: தொடர்ந்து மீண்டும் மீண்டும் இயங்கும்
-  // ஒளி1 ஐ ஒளிரச் செய்யவும்
-  digitalWrite(led1, HIGH); // led1 ஐ ஆன் (HIGH) செய்து ஒளிர வைக்கிறது
-  delay(500); // 500 மில்லி வினாடிகள் காத்திருக்கிறது
-  digitalWrite(led1, LOW); // led1 ஐ ஆஃப் (LOW) செய்து அணைக்கிறது
-  delay(500); // 500 மில்லி வினாடிகள் காத்திருக்கிறது
+void loop() { // சுழற்சி செயல்பாடு: தொடர்ந்து மீண்டும் மீண்டும் இயங்கும் Loop function: runs repeatedly
+  // Turn on LED1 LED1 ஐ ஒளிரச் செய்யவும்
+  digitalWrite(led1, HIGH); // led1 ஐ இயங்கி ஒளிர வைக்கிறது Turn led1 on (HIGH)
+  delay(500); // 500 மில்லி வினாடிகள் இடைவேளை Wait for 500 milliseconds
+  digitalWrite(led1, LOW); // led2 ஐ அணைக்கிறது Turn led1 off (LOW)s
+  delay(500); // 500 மில்லி வினாடிகள் இடைவேளை Wait for 500 milliseconds
 
-  // ஒளி2 ஐ ஒளிரச் செய்யவும்
-  digitalWrite(led2, HIGH); // led2 ஐ ஆன் (HIGH) செய்து ஒளிர வைக்கிறது
-  delay(500); // 500 மில்லி வினாடிகள் காத்திருக்கிறது
-  digitalWrite(led2, LOW); // led2 ஐ ஆஃப் (LOW) செய்து அணைக்கிறது
-  delay(500); // 500 மில்லி வினாடிகள் காத்திருக்கிறது
+  // Turn on LED2 LED2 ஐ ஒளிரச் செய்யவும்
+  digitalWrite(led2, HIGH); // led2 ஐ இயங்கி ஒளிர வைக்கிறது Turn led2 on (HIGH)
+  delay(500); // 500 மில்லி வினாடிகள் இடைவேளை Wait for 500 milliseconds
+  digitalWrite(led2, LOW); // led2 ஐ அணைக்கிறது Turn led2 off (LOW)
+  delay(500); // 500 மில்லி வினாடிகள் இடைவேளை Wait for 500 milliseconds
 
-  // ஒளி3 ஐ ஒளிரச் செய்யவும்
-  digitalWrite(led3, HIGH); // led3 ஐ ஆன் (HIGH) செய்து ஒளிர வைக்கிறது
-  delay(500); // 500 மில்லி வினாடிகள் காத்திருக்கிறது
-  digitalWrite(led3, LOW); // led3 ஐ ஆஃப் (LOW) செய்து அணைக்கிறது
-  delay(500); // 500 மில்லி வினாடிகள் காத்திருக்கிறது
+  // LED3 ஐ ஒளிரச் செய்யவும் Turn on LED3
+  digitalWrite(led3, HIGH); // led3 ஐ இயங்கி ஒளிர வைக்கிறது Turn led3 on (HIGH)
+  delay(500); // 500 மில்லி வினாடிகள் இடைவேளை Wait for 500 milliseconds
+  digitalWrite(led3, LOW); // led3 ஐ அணைக்கிறது Turn led3 off (LOW)
+  delay(500); // 500 மில்லி வினாடிகள் இடைவேளை Wait for 500 milliseconds
 }
