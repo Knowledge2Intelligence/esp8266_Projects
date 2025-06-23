@@ -2,7 +2,8 @@
 Blinking Three LEDs Using ESP8266
 
 ## திட்டக் கண்ணோட்டம்  
-Project Overview  
+Project Overview 
+
 இந்தத் திட்டம் ESP8266 நுண்கட்டுப்படுத்தியுடன் இணைக்கப்பட்ட மூன்று LED-களை கட்டுப்படுத்தி, அவற்றை வரிசையாக ஒளிரச் செய்வதை விளக்குகிறது.  
 This project demonstrates how to control three LEDs connected to an ESP8266 microcontroller, making them blink in a sequential pattern. 
 
