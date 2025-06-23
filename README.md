@@ -1,4 +1,4 @@
-# மூன்று LED-களை (ஒளி உமிழ் இருமுனையம்) ESP8266 ஐப் பயன்படுத்தி ஒளிரச் செய்தல்  
+# மூன்று LED(ஒளி உமிழ் இருமுனையம்)-களை ESP8266 ஐப் பயன்படுத்தி ஒளிரச் செய்தல்  
 Blinking Three LEDs Using ESP8266
 
 ## திட்டக் கண்ணோட்டம்  
@@ -38,12 +38,12 @@ Software Required
   அல்லது (or)
 
 - **Visual Studio Code**: விஷுவல் ஸ்டுடியோ கோடு: code.visualstudio.com இலிருந்து பதிவிறக்கி, Extensions Marketplace இலிருந்து PlatformIO விரிவாக்கத்தை நிறுவவும்.
-  **விஷுவல் ஸ்டுடியோ கோடு**: Visual Studio Code: Download from code.visualstudio.com and install the PlatformIO extension from the Extensions Marketplace.
+  **விஷுவல் ஸ்டுடியோ கோடு**: Visual Studio Code: Download from [code.visualstudio.com](https://code.visualstudio.com/) and install the PlatformIO extension from the Extensions Marketplace.
 
 ஆண்ட்ராய்டு
 (Android)
-- **ArduinoDroid**: ஆண்ட்ராய்டு கைபேசிக்கான செயலி (கூகுள் பிளே ஸ்டோரில் கிடைக்கும்).  
-  **ArduinoDroid**: Mobile app for Android (available on Google Play Store).  
+- **ArduinoDroid**: ஆண்ட்ராய்டு திறன்பேசிக்கான செயலி (கூகுள் பிளே ஸ்டோரில் கிடைக்கும்) அல்லது, நீங்கள் நம்பகமான இணையதளத்திலிருந்து APK கோப்பைப் பதிவிறக்கலாம்.
+  **ArduinoDroid**: Mobile app for Android (available on Google Play Store) or you can download the APK file from a legitimate website..  
 
 ## தேவையான வன்பொருள்  
 Hardware Required  
@@ -82,8 +82,8 @@ Programming Using Arduino IDE
    **Upload Code**:  
    - `Tools > Board` இல் உங்கள் ESP8266 போர்டை (எ.கா., `NodeMCU 1.0`) தேர்ந்தெடுக்கவும்.  
      Select your ESP8266 board (e.g., `NodeMCU 1.0`) under `Tools > Board`.  
-   - நீங்கள் உங்கள் சொந்த நிரலை உருவாக்கலாம் அல்லது கொடுக்கப்பட்ட [நிரலை]() Arduino IDE-இல் நகலெடுத்து ஒட்டலாம். 
-     You can make your own code or copy and paste the given [code]() into the Arduino IDE.
+   - நீங்கள் உங்கள் சொந்த நிரலை உருவாக்கலாம் அல்லது கொடுக்கப்பட்ட [நிரலை](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/01_Blinking_3%20LEDs-0%E0%AF%A7_%E0%AE%AE%E0%AF%82%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%81_%E0%AE%92.%E0%AE%89.%E0%AE%87_%E0%AE%95%E0%AE%B3%E0%AF%88_%E0%AE%92%E0%AE%B3%E0%AE%BF%E0%AE%B0%E0%AE%9A%E0%AF%8D_%E0%AE%9A%E0%AF%86%E0%AE%AF%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D/Code_%E0%AE%95%E0%AF%81%E0%AE%B1%E0%AE%BF%E0%AE%AF%E0%AF%80%E0%AE%9F%E0%AF%81/Arduino-IDE_%E0%AE%86%E0%AE%B0%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%87%E0%AE%A9%E0%AF%8B-%E0%AE%92.%E0%AE%B5%E0%AE%BF.%E0%AE%9A%E0%AF%81/Blinking_3_LEDs.ino) Arduino IDE-இல் நகலெடுத்து ஒட்டலாம். 
+     You can make your own code or copy and paste the given [code](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/01_Blinking_3%20LEDs-0%E0%AF%A7_%E0%AE%AE%E0%AF%82%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%81_%E0%AE%92.%E0%AE%89.%E0%AE%87_%E0%AE%95%E0%AE%B3%E0%AF%88_%E0%AE%92%E0%AE%B3%E0%AE%BF%E0%AE%B0%E0%AE%9A%E0%AF%8D_%E0%AE%9A%E0%AF%86%E0%AE%AF%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D/Code_%E0%AE%95%E0%AF%81%E0%AE%B1%E0%AE%BF%E0%AE%AF%E0%AF%80%E0%AE%9F%E0%AF%81/Arduino-IDE_%E0%AE%86%E0%AE%B0%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%87%E0%AE%A9%E0%AF%8B-%E0%AE%92.%E0%AE%B5%E0%AE%BF.%E0%AE%9A%E0%AF%81/Blinking_3_LEDs.ino) into the Arduino IDE.
    - ESP8266 ஐ நிரலாக்க `Upload` ஐ சொடுக்கவும்.  
      Click `Upload` to program the ESP8266.  
 
@@ -111,8 +111,8 @@ Programming Using PlatformIO (VS Code)
    :  
    - உங்கள் PlatformIO திட்டத்தில் `src/main.cpp` கோப்பை திறக்கவும். 
      Open the `src/main.cpp` file in your PlatformIO project.  
-   - நீங்கள் உங்கள் சொந்த குறியீட்டைப் உருவாக்கலாம் அல்லது கொடுக்கப்பட்ட [குறியீட்டைப்]() பயன்படுத்தவும்.
-     Your can make your own code or use the given [code]().  
+   - நீங்கள் உங்கள் சொந்த குறியீட்டைப் உருவாக்கலாம் அல்லது கொடுக்கப்பட்ட [குறியீட்டைப்](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/01_Blinking_3%20LEDs-0%E0%AF%A7_%E0%AE%AE%E0%AF%82%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%81_%E0%AE%92.%E0%AE%89.%E0%AE%87_%E0%AE%95%E0%AE%B3%E0%AF%88_%E0%AE%92%E0%AE%B3%E0%AE%BF%E0%AE%B0%E0%AE%9A%E0%AF%8D_%E0%AE%9A%E0%AF%86%E0%AE%AF%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D/Code_%E0%AE%95%E0%AF%81%E0%AE%B1%E0%AE%BF%E0%AE%AF%E0%AF%80%E0%AE%9F%E0%AF%81/VSCode_%E0%AE%B5%E0%AE%BF.%E0%AE%8E%E0%AE%B8%E0%AF%8D-%E0%AE%95%E0%AF%8B%E0%AE%9F%E0%AF%81(Platform-IO_%E0%AE%AA%E0%AF%8D%E0%AE%B2%E0%AE%BE%E0%AE%9F%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%AE%E0%AF%8D-%E0%AE%90.%E0%AE%93)/Blinking_3_LEDs/src/main.cpp) பயன்படுத்தவும்.
+     Your can make your own code or use the given [code](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/01_Blinking_3%20LEDs-0%E0%AF%A7_%E0%AE%AE%E0%AF%82%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%81_%E0%AE%92.%E0%AE%89.%E0%AE%87_%E0%AE%95%E0%AE%B3%E0%AF%88_%E0%AE%92%E0%AE%B3%E0%AE%BF%E0%AE%B0%E0%AE%9A%E0%AF%8D_%E0%AE%9A%E0%AF%86%E0%AE%AF%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D/Code_%E0%AE%95%E0%AF%81%E0%AE%B1%E0%AE%BF%E0%AE%AF%E0%AF%80%E0%AE%9F%E0%AF%81/VSCode_%E0%AE%B5%E0%AE%BF.%E0%AE%8E%E0%AE%B8%E0%AF%8D-%E0%AE%95%E0%AF%8B%E0%AE%9F%E0%AF%81(Platform-IO_%E0%AE%AA%E0%AF%8D%E0%AE%B2%E0%AE%BE%E0%AE%9F%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%AE%E0%AF%8D-%E0%AE%90.%E0%AE%93)/Blinking_3_LEDs/src/main.cpp).  
    - ESP8266 ஐ நிரலாக்க PlatformIO `Upload` பொத்தானை கிளிக் செய்யவும்.
      Click the PlatformIO `Upload` button to program the ESP8266.  
       
@@ -139,8 +139,8 @@ Programming Using ArduinoDroid
      Connect LEDs to GPIO pins (e.g., D1, D2, D3) with resistors.  
 4. **குறியீட்டை எழுதி பதிவேற்றவும்**:  
    **Write and Upload Code**:  
-   - ArduinoDroid இல் புதிய நிரல் வரைவை உருவாக்கி, கொடுக்கப்பட்ட [குறியீட்டைப்]() பயன்படுத்தவும் அல்லது நீங்கள் உங்கள் சொந்த குறியீட்டைப் பயன்படுத்தலாம்.
-     Create a new sketch in ArduinoDroid and paste the given [code]() or you can use your own code.  
+   - ArduinoDroid இல் புதிய நிரல் வரைவை உருவாக்கி, கொடுக்கப்பட்ட [குறியீட்டைப்](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/01_Blinking_3%20LEDs-0%E0%AF%A7_%E0%AE%AE%E0%AF%82%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%81_%E0%AE%92.%E0%AE%89.%E0%AE%87_%E0%AE%95%E0%AE%B3%E0%AF%88_%E0%AE%92%E0%AE%B3%E0%AE%BF%E0%AE%B0%E0%AE%9A%E0%AF%8D_%E0%AE%9A%E0%AF%86%E0%AE%AF%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D/Code_%E0%AE%95%E0%AF%81%E0%AE%B1%E0%AE%BF%E0%AE%AF%E0%AF%80%E0%AE%9F%E0%AF%81/Arduino-Droid_%E0%AE%86%E0%AE%B0%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%87%E0%AE%A9%E0%AF%8B-%E0%AE%9F%E0%AF%8D%E0%AE%B0%E0%AE%BE%E0%AE%AF%E0%AF%81%E0%AE%9F%E0%AF%81/Blinking_3_LEDs.ino) பயன்படுத்தவும் அல்லது நீங்கள் உங்கள் சொந்த குறியீட்டைப் பயன்படுத்தலாம்.
+     Create a new sketch in ArduinoDroid and paste the given [code](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/01_Blinking_3%20LEDs-0%E0%AF%A7_%E0%AE%AE%E0%AF%82%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%81_%E0%AE%92.%E0%AE%89.%E0%AE%87_%E0%AE%95%E0%AE%B3%E0%AF%88_%E0%AE%92%E0%AE%B3%E0%AE%BF%E0%AE%B0%E0%AE%9A%E0%AF%8D_%E0%AE%9A%E0%AF%86%E0%AE%AF%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D/Code_%E0%AE%95%E0%AF%81%E0%AE%B1%E0%AE%BF%E0%AE%AF%E0%AF%80%E0%AE%9F%E0%AF%81/Arduino-Droid_%E0%AE%86%E0%AE%B0%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%87%E0%AE%A9%E0%AF%8B-%E0%AE%9F%E0%AF%8D%E0%AE%B0%E0%AE%BE%E0%AE%AF%E0%AF%81%E0%AE%9F%E0%AF%81/Blinking_3_LEDs.ino) or you can use your own code.  
    - ESP8266 ஐ நிரலாக்க பதிவேற்ற பொத்தானை தட்டவும்.
      Tap the upload button to program the ESP8266.  
 
