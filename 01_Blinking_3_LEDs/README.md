@@ -40,6 +40,7 @@ Software Required
 
 - **Arduino IDE**: பதிப்பு 2.3.2 அல்லது அதற்கு மேல் ([arduino.cc](https://www.arduino.cc/en/software) இலிருந்து பதிவிறக்கவும்).  
   **Arduino IDE**: Version 2.3.2 or later (download from [arduino.cc](https://www.arduino.cc/en/software)). 
+
 விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும் ](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/Installing_Software/Installing_Arduino_IDE.docx).
 ([Click Here](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/Installing_Software/Installing_Arduino_IDE.docx) for Detailed Explanation).
 
@@ -47,6 +48,7 @@ Software Required
 
 - **Visual Studio Code**: விஷுவல் ஸ்டுடியோ கோடு: code.visualstudio.com இலிருந்து பதிவிறக்கி, Extensions Marketplace இலிருந்து PlatformIO விரிவாக்கத்தை நிறுவவும்.
   **விஷுவல் ஸ்டுடியோ கோடு**: Visual Studio Code: Download from [code.visualstudio.com](https://code.visualstudio.com/) and install the PlatformIO extension from the Extensions Marketplace.
+
 விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும் ](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/Installing_Software/Installing_Arduinodroid.docx).
 ([Click Here](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/Installing_Software/Installing_Arduinodroid.docx) for Detailed Explanation).
 
@@ -54,6 +56,7 @@ Software Required
 (Android)
 - **ArduinoDroid**: ஆண்ட்ராய்டு திறன்பேசிக்கான செயலி (கூகுள் பிளே ஸ்டோரில் கிடைக்கும்) அல்லது, நீங்கள் நம்பகமான இணையதளத்திலிருந்து APK கோப்பைப் பதிவிறக்கலாம்.
   **ArduinoDroid**: Mobile app for Android (available on Google Play Store) or you can download the APK file from a legitimate website.
+
 விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும் ](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/Installing_Software/Installing_Arduinodroid.docx).
 ([Click Here](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/Installing_Software/Installing_Arduinodroid.docx) for Detailed Explanation).
 
@@ -64,7 +67,7 @@ Hardware Required
 - மூன்று LED-கள் (எந்த நிறமாக இருந்தாலும் சரி).  
   Three LEDs (any color).  
 - மூன்று 220Ω மின்தடையி (LED-களுக்கு மின்னோட்டத்தை வரம்பிட).  
-  Three 220Ω resistors (to limit current to LEDs). s 
+  Three 220Ω resistors (to limit current to LEDs).
 - மின்னணுவியல் பலகை மற்றும் இணைப்பு கம்பிகள்.  
   Breadboard and jumper wires.  
 - USB கேபிள் (Type-A to Micro-USB அல்லது USB-C, ESP8266 தொகுதியைப் பொறுத்து).  
