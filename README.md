@@ -106,8 +106,9 @@ Programming Using PlatformIO (VS Code)
    **Configure Hardware**:  
    - மேலலே விவரிக்கப்பட்டபடி, LED-களை GPIO மின்னியல் கொம்புகளுடன் (எ.கா., D1, D2, D3) மின்தடையிகளுடன் இணைக்கவும். 
      Connect LEDs to GPIO pins (e.g., D1, D2, D3) with resistors, as described above.
-4. **Write and Upload Code**:  
-   **குறியீட்டை எழுதி பதிவேற்றவும்**:  
+4. **குறியீட்டை எழுதி பதிவேற்றவும்**
+   **Write and Upload Code**:  
+   :  
    - உங்கள் PlatformIO திட்டத்தில் `src/main.cpp` கோப்பை திறக்கவும். 
      Open the `src/main.cpp` file in your PlatformIO project.  
    - நீங்கள் உங்கள் சொந்த குறியீட்டைப் உருவாக்கலாம் அல்லது கொடுக்கப்பட்ட [குறியீட்டைப்]() பயன்படுத்தவும்.
@@ -119,24 +120,25 @@ Programming Using PlatformIO (VS Code)
 விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும் ]().
 ([Click Here]() for Detailed Explanation)
 
-## Programming Using ArduinoDroid  
-### ArduinoDroid ஐப் பயன்படுத்தி நிரலாக்கம்  
-1. **Install ArduinoDroid**:  
-   **ArduinoDroid ஐ நிறுவவும்**:  
+### ArduinoDroid ஐப் பயன்படுத்தி நிரலாக்கம்
+Programming Using ArduinoDroid  
+
+1. **ArduinoDroid ஐ நிறுவவும்**:  
+   **Install ArduinoDroid**:  
    - Google Play Store இலிருந்து ArduinoDroid செயலியை ஐ பதிவிறக்கவும். கூகுள் பிளே ஸ்டோரில் கிடைக்கவில்லை என்றால், நம்பகமான இணையதளத்தில் இருந்து APK கோப்பைப் பதிவிறக்கவும்.
      Download ArduinoDroid from the Google Play Store. If not available on the Google Play Store, download the APK file from a legitimate website.
-2. **Set Up Board Support**:  
-   **போர்டு ஆதரவை அமைக்கவும்**:  
+2. **பலகைக்கான ஆதரவை அமைக்கவும்**:  
+   **Set Up Board Support**:  
    - ArduinoDroid இல், `Settings > Board Type` க்கு சென்று, உங்கள் ESP8266 போர்டை தேர்ந்தெடுத்து, கேட்கப்பட்டால் ESP8266 தொகுப்பை நிறுவவும்.
      In ArduinoDroid, go to `Settings > Board Type`, select your ESP8266 board, and install the ESP8266 package if prompted.
-3. **Connect Hardware**:  
-   **வன்பொருளை இணைக்கவும்**:  
+3. **வன்பொருளை இணைக்கவும்e**:  
+   **Connect Hardwar**:  
    - OTG கேபிளைப் பயன்படுத்தி ESP8266 ஐ உங்கள் ஆண்ட்ராய்டு சாதனத்துடன் இணைக்கவும்.
      Use an OTG cable to connect the ESP8266 to your Android device.  
    - LED-களை GPIO மின்னியல் கொம்புகளுடன் (எ.கா., D1, D2, D3) மின்தடையிகளுடன் இணைக்கவும்.
      Connect LEDs to GPIO pins (e.g., D1, D2, D3) with resistors.  
-4. **Write and Upload Code**:  
-   **குறியீட்டை எழுதி பதிவேற்றவும்**:  
+4. **குறியீட்டை எழுதி பதிவேற்றவும்**:  
+   **Write and Upload Code**:  
    - ArduinoDroid இல் புதிய நிரல் வரைவை உருவாக்கி, கொடுக்கப்பட்ட [குறியீட்டைப்]() பயன்படுத்தவும் அல்லது நீங்கள் உங்கள் சொந்த குறியீட்டைப் பயன்படுத்தலாம்.
      Create a new sketch in ArduinoDroid and paste the given [code]() or you can use your own code.  
    - ESP8266 ஐ நிரலாக்க பதிவேற்ற பொத்தானை தட்டவும்.
