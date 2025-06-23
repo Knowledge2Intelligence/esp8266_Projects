@@ -1,6 +1,11 @@
 # மூன்று LED(ஒளி உமிழ் இருமுனையம்)-களை ESP8266 ஐப் பயன்படுத்தி ஒளிரச் செய்தல்  
 Blinking Three LEDs Using ESP8266
 
+## மின்சுற்று விளக்கப்படம்
+Circuit Diagram
+
+<img src="Circuit-Diagram_மின்சுற்று-விளக்கப்படம்.png" alt="Blinking_3_LEDs" width="400"/>
+
 ## திட்டக் கண்ணோட்டம்  
 Project Overview 
 
