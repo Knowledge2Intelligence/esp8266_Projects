@@ -88,7 +88,7 @@ Programming Using Arduino IDE
      Click `Upload` to program the ESP8266.  
 
 விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும் ]().
-[Click Here]() for Detailed Explanation
+([Click Here]() for Detailed Explanation)
 
 ## PlatformIO (VS Code) ஐப் பயன்படுத்தி நிரலாக்கம்  
 Programming Using PlatformIO (VS Code)  
@@ -117,7 +117,7 @@ Programming Using PlatformIO (VS Code)
       
 
 விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும் ]().
-[Click Here]() for Detailed Explanation
+([Click Here]() for Detailed Explanation)
 
 ## Programming Using ArduinoDroid  
 ### ArduinoDroid ஐப் பயன்படுத்தி நிரலாக்கம்  
@@ -142,5 +142,5 @@ Programming Using PlatformIO (VS Code)
    - ESP8266 ஐ நிரலாக்க பதிவேற்ற பொத்தானை தட்டவும்.
      Tap the upload button to program the ESP8266.  
 
-விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும் ]().
-[Click Here]() for Detailed Explanation
+விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும்]().
+([Click Here]() for Detailed Explanation)
