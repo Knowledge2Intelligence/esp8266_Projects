@@ -1,45 +1,50 @@
-# மூன்று LED-களை ESP8266 ஐப் பயன்படுத்தி ஒளிரச் செய்தல்  
+# மூன்று LED-களை (ஒளி உமிழ் இருமுனையம்) ESP8266 ஐப் பயன்படுத்தி ஒளிரச் செய்தல்  
 Blinking Three LEDs Using ESP8266
 
 ## திட்டக் கண்ணோட்டம்  
 Project Overview  
-இந்தத் திட்டம் ESP8266 மைக்ரோகண்ட்ரோலருடன் இணைக்கப்பட்ட மூன்று LED-களை கட்டுப்படுத்தி, அவற்றை வரிசையாக ஒளிரச் செய்வதை விளக்குகிறது.  
-This project demonstrates how to control three LEDs connected to an ESP8266 microcontroller, making them blink in a sequential pattern.  
-ESP8266 ஒரு பல்துறை Wi-Fi இயக்கப்பட்ட மைக்ரோகண்ட்ரோலர் ஆகும், மேலும் இந்தத் திட்டம் பல்வேறு மேம்பாட்டு சூழல்களைப் பயன்படுத்தி இதை நிரலாக்குவதற்கு ஆரம்பநிலையாளர்களுக்கு உகந்த அறிமுகமாக உள்ளது.  
+இந்தத் திட்டம் ESP8266 நுண்கட்டுப்படுத்தியுடன் இணைக்கப்பட்ட மூன்று LED-களை கட்டுப்படுத்தி, அவற்றை வரிசையாக ஒளிரச் செய்வதை விளக்குகிறது.  
+This project demonstrates how to control three LEDs connected to an ESP8266 microcontroller, making them blink in a sequential pattern. 
+
+ESP8266 ஒரு பல்துறை Wi-Fi இயக்கப்பட்ட நுண்கட்டுப்படுத்தி ஆகும், மேலும் இந்தத் திட்டம் பல்வேறு மேம்பாட்டு சூழல்களைப் பயன்படுத்தி இதை நிரலாக்குவதற்கு ஆரம்பநிலையாளர்களுக்கு உகந்த அறிமுகமாக உள்ளது.  
 The ESP8266 is a versatile Wi-Fi-enabled microcontroller, and this project serves as a beginner-friendly introduction to programming it using different development environments.  
-LED-கள் GPIO பின்களுடன் இணைக்கப்பட்டுள்ளன, மேலும் குறியீடு அவற்றை குறிப்பிட்ட தாமதத்துடன் ஆன் மற்றும் ஆஃப் செய்கிறது.  
+
+LED-கள் GPIO மின்னியல் கொம்புகளுடன் இணைக்கப்பட்டுள்ளன, மேலும் குறியீடு அவற்றை குறிப்பிட்ட இடைவெளியுடன் இயக்கவும் அமர்த்தவும் செய்கிறது.  
 The LEDs are connected to GPIO pins, and the code toggles them on and off with a specified delay.
 
-## ஓட்ட விளக்கப்படம்  
+## செயல்வழிப் படம் 
 Flow Chart  
 ```mermaid
 graph TD
     A[Start / தொடங்கு] --> B[Initialize ESP8266 / ESP8266 ஐ துவக்கு]  
-    B --> C[Configure GPIO pins as outputs / GPIO பின்களை வெளியீடுகளாக அமை]  
-    C --> D[Loop: Turn LED1 ON / லூப்: LED1 ஐ ஆன் செய்]  
-    D --> E[Delay 500ms / 500ms தாமதம்]  
-    E --> F[Turn LED1 OFF / LED1 ஐ ஆஃப் செய்]  
-    F --> G[Turn LED2 ON / LED2 ஐ ஆன் செய்]  
-    G --> H[Delay 500ms / 500ms தாமதம்]  
-    H --> I[Turn LED2 OFF / LED2 ஐ ஆஃப் செய்]  
-    I --> J[Turn LED3 ON / LED3 ஐ ஆன் செய்]  
-    J --> K[Delay 500ms / 500ms தாமதம்]  
-    K --> L[Turn LED3 OFF / LED3 ஐ ஆஃப் செய்]  
+    B --> C[Configure GPIO pins as outputs / GPIO மின்னியல் கொம்புகளை வெளியீடுகளாக அமை]  
+    C --> D[Loop: Turn LED1 ON / லூப்: LED1 ஐ இயக்கு]  
+    D --> E[Delay 500ms / 500மிநி இடைவெளி/தாமதம்]  
+    E --> F[Turn LED1 OFF / LED1 ஐ அமர்த்து ]  
+    F --> G[Turn LED2 ON / LED2 ஐ இயக்கு]  
+    G --> H[Delay 500ms / 500மிநி இடைவெளி/தாமதம்]  
+    H --> I[Turn LED2 OFF / LED2 ஐ அமர்த்து ]  
+    I --> J[Turn LED3 ON / LED3 ஐ இயக்கு]  
+    J --> K[Delay 500ms / 500மிநி இடைவெளி/தாமதம்]  
+    K --> L[Turn LED3 OFF / LED3 ஐ அமர்த்து ]  
     L --> D
 ```
 
 ## தேவையான மென்பொருள்  
 Software Required  
+
+விண்டோஸ்
+Windows
+
 - **Arduino IDE**: பதிப்பு 2.3.2 அல்லது அதற்கு மேல் ([arduino.cc](https://www.arduino.cc/en/software) இலிருந்து பதிவிறக்கவும்).  
-  **Arduino IDE**: Version 2.3.2 or later (download from [arduino.cc](https://www.arduino.cc/en/software)).  
-- **PlatformIO**: விஷுவல் ஸ்டுடியோ கோடுக்கான நீட்டிப்பு ([platformio.org](https://platformio.org/) இலிருந்து நிறுவவும்).  
-  **PlatformIO**: Extension for Visual Studio Code (install from [platformio.org](https://platformio.org/)).  
+  **Arduino IDE**: Version 2.3.2 or later (download from [arduino.cc](https://www.arduino.cc/en/software)). 
+- **Visual Studio Code**: விஷுவல் ஸ்டுடியோ கோடு: code.visualstudio.com இலிருந்து பதிவிறக்கி, Extensions Marketplace இலிருந்து PlatformIO நீட்டிப்பை நிறுவவும்.
+  **விஷுவல் ஸ்டுடியோ கோடு**: Visual Studio Code: Download from code.visualstudio.com and install the PlatformIO extension from the Extensions Marketplace.
+  
+ஆண்ட்ராய்டு
+Android
 - **ArduinoDroid**: ஆண்ட்ராய்டுக்கான மொபைல் பயன்பாடு (கூகுள் பிளே ஸ்டோரில் கிடைக்கும்).  
   **ArduinoDroid**: Mobile app for Android (available on Google Play Store).  
-- **ESP8266 போர்டு ஆதரவு தொகுப்பு**: Arduino IDE மற்றும் PlatformIO இல் ESP8266 ஐ நிரலாக்க தேவை.  
-  **ESP8266 Board Support Package**: Required for Arduino IDE and PlatformIO to program the ESP8266.  
-- **USB இயக்கி**: USB-க்கு-சீரியல் தொடர்புக்கு CH340/CH341 இயக்கி (ஏற்கனவே நிறுவப்படவில்லை என்றால்).  
-  **USB Driver**: CH340/CH341 driver for USB-to-serial communication (if not already installed).  
 
 ## தேவையான வன்பொருள்  
 Hardware Required  
