@@ -40,22 +40,22 @@ Software Required
 
 - **Arduino IDE**: பதிப்பு 2.3.2 அல்லது அதற்கு மேல் ([arduino.cc](https://www.arduino.cc/en/software) இலிருந்து பதிவிறக்கவும்).  
   **Arduino IDE**: Version 2.3.2 or later (download from [arduino.cc](https://www.arduino.cc/en/software)). 
-விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும் ]().
-([Click Here]() for Detailed Explanation).
+விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும் ](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/Installing_Software/Installing_Arduino_IDE.docx).
+([Click Here](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/Installing_Software/Installing_Arduino_IDE.docx) for Detailed Explanation).
 
   அல்லது (or)
 
 - **Visual Studio Code**: விஷுவல் ஸ்டுடியோ கோடு: code.visualstudio.com இலிருந்து பதிவிறக்கி, Extensions Marketplace இலிருந்து PlatformIO விரிவாக்கத்தை நிறுவவும்.
   **விஷுவல் ஸ்டுடியோ கோடு**: Visual Studio Code: Download from [code.visualstudio.com](https://code.visualstudio.com/) and install the PlatformIO extension from the Extensions Marketplace.
-விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும் ]().
-([Click Here]() for Detailed Explanation).
+விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும் ](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/Installing_Software/Installing_Arduinodroid.docx).
+([Click Here](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/Installing_Software/Installing_Arduinodroid.docx) for Detailed Explanation).
 
 ஆண்ட்ராய்டு
 (Android)
 - **ArduinoDroid**: ஆண்ட்ராய்டு திறன்பேசிக்கான செயலி (கூகுள் பிளே ஸ்டோரில் கிடைக்கும்) அல்லது, நீங்கள் நம்பகமான இணையதளத்திலிருந்து APK கோப்பைப் பதிவிறக்கலாம்.
   **ArduinoDroid**: Mobile app for Android (available on Google Play Store) or you can download the APK file from a legitimate website.
-விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும் ]().
-([Click Here]() for Detailed Explanation).
+விவரமான விளக்கத்திற்கு இங்கே [சொடுக்கவும் ](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/Installing_Software/Installing_Arduinodroid.docx).
+([Click Here](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/Installing_Software/Installing_Arduinodroid.docx) for Detailed Explanation).
 
 ## தேவையான வன்பொருள்  
 Hardware Required  
@@ -109,7 +109,7 @@ Programming Using PlatformIO (VS Code)
    - [code.visualstudio.com](https://code.visualstudio.com/) இலிருந்து விஷுவல் ஸ்டுடியோ கோடை நிறுவவும்.  
      Install Visual Studio Code from [code.visualstudio.com](https://code.visualstudio.com/).  
    - Extensions Marketplace வழியாக PlatformIO விரிவாக்கத்தைச் சேர்க்கவும்.  
-     Add the PlatformIO extension via the Extensions Marketplace.  
+     [Add](https://github.com/Knowledge2Intelligence/esp8266_Projects/blob/main/Installing_Software/Installing_Platform-IO_Extension.docx) the PlatformIO extension via the Extensions Marketplace.  
 2. **புதிய திட்டத்தை உருவாக்கவும்**:  
    **Create a New Project**:  
    - PlatformIO ஐ திறந்து, `New Project` ஐ கிளிக் செய்து, உங்கள் ESP8266 பலகையை (எ.கா., `NodeMCU`) தேர்ந்தெடுத்து, Arduino framework ஐ தேர்வு செய்யவும்.  
