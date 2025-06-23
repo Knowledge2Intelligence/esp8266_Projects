@@ -14,7 +14,6 @@ The LEDs are connected to GPIO pins, and the code toggles them on and off with a
 Flow Chart  
 ```mermaid
 graph TD
-    graph TD
     A[Start / தொடங்கு] --> B[Initialize ESP8266 / ESP8266 ஐ துவக்கு]  
     B --> C[Configure GPIO pins as outputs / GPIO பின்களை வெளியீடுகளாக அமை]  
     C --> D[Loop: Turn LED1 ON / லூப்: LED1 ஐ ஆன் செய்]  
