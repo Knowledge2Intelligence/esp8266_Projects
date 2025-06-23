@@ -5,6 +5,7 @@ Blinking Three LEDs Using ESP8266
 Circuit Diagram
 
 <img src="Circuit-Diagram_மின்சுற்று-விளக்கப்படம்.png" alt="Blinking_3_LEDs" width="400"/>
+<img src="Breadboard-Connecton_மின்னணுவியல்-பலகை_இணைப்பு.jpg" alt="Blinking_3_LEDs" width="400"/>
 
 ## திட்டக் கண்ணோட்டம்  
 Project Overview 
