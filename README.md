@@ -70,7 +70,7 @@ Programming Using Arduino IDE
    **Install Arduino IDE**:  
    - [arduino.cc](https://www.arduino.cc/en/software) இலிருந்து Arduino IDE ஐ பதிவிறக்கி நிறுவவும்.  
      Download and install Arduino IDE from [arduino.cc](https://www.arduino.cc/en/software).  
-2. **ESP8266 போர்டு ஆதரவைச் சேர்க்கவும்**:  
+2. **ESP8266 பலகைக்கான ஆதரவைச் சேர்க்கவும்**:  
    **Add ESP8266 Board Support**:  
    - `File > Preferences` க்கு சென்று, "Additional Boards Manager URLs" இல் `https://arduino.esp8266.com/stable/package_esp8266com_index.json` ஐச் சேர்க்கவும்.  
      Go to `File > Preferences`, add `https://arduino.esp8266.com/stable/package_esp8266com_index.json` to the "Additional Boards Manager URLs."  
@@ -78,16 +78,16 @@ Programming Using Arduino IDE
      In `Tools > Board > Boards Manager`, search for "ESP8266" and install the package.  
 3. **வன்பொருளை இணைக்கவும்**:  
    **Connect Hardware**:  
-   - LED-களை GPIO பின்களுடன் (எ.கா., D1, D2, D3) 220Ω மின்தடையங்களுடன் தொடரில் இணைக்கவும்.  
+   - LED-களை GPIO மின்னியல் கொம்புகளுடன் (எ.கா., D1, D2, D3) 220Ω மின்தடையிகளுடன் தொடரில் இணைக்கவும்.  
      Connect LEDs to GPIO pins (e.g., D1, D2, D3) with 220Ω resistors in series to ground.  
-   - ESP8266 ஐ USB வழியாக உங்கள் கணினியுடன் இணைக்கவும்.  
+   - ESP8266 ஐ USB (அகிலத் தொடர் பாட்டை) வழியாக உங்கள் கணினியுடன் இணைக்கவும்.  
      Connect the ESP8266 to your computer via USB.  
 4. **குறியீட்டை பதிவேற்றவும்**:  
    **Upload Code**:  
    - `Tools > Board` இல் உங்கள் ESP8266 போர்டை (எ.கா., `NodeMCU 1.0`) தேர்ந்தெடுக்கவும்.  
      Select your ESP8266 board (e.g., `NodeMCU 1.0`) under `Tools > Board`.  
-   - பின்வரும் குறியீட்டை Arduino IDE இல் நகலெடுத்து ஒட்டவும்.  
-     Copy and paste the following code into the Arduino IDE.  
+   - நீங்கள் உங்கள் சொந்த நிரலை உருவாக்கலாம் அல்லது கொடுக்கப்பட்ட நிரலை Arduino IDE-இல் நகலெடுத்து ஒட்டலாம். 
+     You can make your own code or copy and paste the given code into the Arduino IDE.
    - ESP8266 ஐ நிரலாக்க `Upload` ஐ கிளிக் செய்யவும்.  
      Click `Upload` to program the ESP8266.  
 
@@ -97,21 +97,22 @@ Programming Using PlatformIO (VS Code)
    **Install PlatformIO**:  
    - [code.visualstudio.com](https://code.visualstudio.com/) இலிருந்து விஷுவல் ஸ்டுடியோ கோடை நிறுவவும்.  
      Install Visual Studio Code from [code.visualstudio.com](https://code.visualstudio.com/).  
-   - Extensions Marketplace வழியாக PlatformIO நீட்டிப்பைச் சேர்க்கவும்.  
+   - Extensions Marketplace வழியாக PlatformIO விரிவாக்கத்தைச் சேர்க்கவும்.  
      Add the PlatformIO extension via the Extensions Marketplace.  
 2. **புதிய திட்டத்தை உருவாக்கவும்**:  
    **Create a New Project**:  
-   - PlatformIO ஐ திறந்து, `New Project` ஐ கிளிக் செய்து, உங்கள் ESP8266 போர்டை (எ.கா., `NodeMCU`) தேர்ந்தெடுத்து, Arduino framework ஐ தேர்வு செய்யவும்.  
+   - PlatformIO ஐ திறந்து, `New Project` ஐ கிளிக் செய்து, உங்கள் ESP8266 பலகையை (எ.கா., `NodeMCU`) தேர்ந்தெடுத்து, Arduino framework ஐ தேர்வு செய்யவும்.  
      Open PlatformIO, click `New Project`, select your ESP8266 board (e.g., `NodeMCU`), and choose the Arduino framework.  
 3. **வன்பொருளை அமைக்கவும்**:  
    **Configure Hardware**:  
-   - மேலலே விவரிக்கப்பட்டபடி, LED-களை GPIO பின்களுடன் (எ.கா., D1, D2, D3) மின்தடையங்களுடன் இணைக்கவும்.  
+   - மேலலே விவரிக்கப்பட்டபடி, LED-களை GPIO மின்னியல் கொம்புகளுடன் (எ.கா., D1, D2, D3) மின்தடையிகளுடன் இணைக்கவும். 
+     Connect LEDs to GPIO pins (e.g., D1, D2, D3) with resistors, as described above.
 4. **Write and Upload Code**:  
    **குறியீட்டை எழுதி பதிவேற்றவும்**:  
    - Open the `src/main.cpp` file in your PlatformIO project.  
      உங்கள் PlatformIO திட்டத்தில் `src/main.cpp` கோப்பை திறக்கவும்.  
-   - Use the same code as above.  
-     மேலே உள்ள அதே குறியீட்டைப் பயன்படுத்தவும்.  
+   - Your can make your own code or use the given code.  
+     நீங்கள் உங்கள் சொந்த குறியீட்டைப் உருவாக்கலாம் அல்லது கொடுக்கப்பட்ட குறியீட்டைப் பயன்படுத்தவும்.
    - Click the PlatformIO `Upload` button to program the ESP8266.  
      ESP8266 ஐ நிரலாக்க PlatformIO `Upload` பொத்தானை கிளிக் செய்யவும்.  
 
@@ -119,21 +120,23 @@ Programming Using PlatformIO (VS Code)
 ### ArduinoDroid ஐப் பயன்படுத்தி நிரலாக்கம்  
 1. **Install ArduinoDroid**:  
    **ArduinoDroid ஐ நிறுவவும்**:  
-   - Download ArduinoDroid from the Google Play Store.  
-     Google Play Store இலிருந்து ArduinoDroid ஐ பதிவிறக்கவும்.  
+   - Google Play Store இலிருந்து ArduinoDroid செயலியை ஐ பதிவிறக்கவும். 
+     Download ArduinoDroid from the Google Play Store.  
 2. **Set Up Board Support**:  
    **போர்டு ஆதரவை அமைக்கவும்**:  
-   - In ArduinoDroid, go to `Settings > Board Type`, select your ESP8266 board, and install the ESP8266 package if prompted.  
-     ArduinoDroid இல், `Settings > Board Type` க்கு சென்று, உங்கள் ESP8266 போர்டை தேர்ந்தெடுத்து, கேட்கப்பட்டால் ESP8266 தொகுப்பை நிறுவவும்.  
+   - ArduinoDroid இல், `Settings > Board Type` க்கு சென்று, உங்கள் ESP8266 போர்டை தேர்ந்தெடுத்து, கேட்கப்பட்டால் ESP8266 தொகுப்பை நிறுவவும்.
+     In ArduinoDroid, go to `Settings > Board Type`, select your ESP8266 board, and install the ESP8266 package if prompted.
 3. **Connect Hardware**:  
    **வன்பொருளை இணைக்கவும்**:  
-   - Use an OTG cable to connect the ESP8266 to your Android device.  
-     OTG கேபிளைப் பயன்படுத்தி ESP8266 ஐ உங்கள் ஆண்ட்ராய்டு சாதனத்துடன் இணைக்கவும்.  
-   - Connect LEDs to GPIO pins (e.g., D1, D2, D3) with resistors.  
-     LED-களை GPIO பின்களுடன் (எ.கா., D1, D2, D3) மின்தடையங்களுடன் இணைக்கவும்.  
+   - OTG கேபிளைப் பயன்படுத்தி ESP8266 ஐ உங்கள் ஆண்ட்ராய்டு சாதனத்துடன் இணைக்கவும்.
+     Use an OTG cable to connect the ESP8266 to your Android device.  
+   - LED-களை GPIO மின்னியல் கொம்புகளுடன் (எ.கா., D1, D2, D3) மின்தடையிகளுடன் இணைக்கவும்.
+     Connect LEDs to GPIO pins (e.g., D1, D2, D3) with resistors.  
+     
 4. **Write and Upload Code**:  
    **குறியீட்டை எழுதி பதிவேற்றவும்**:  
-   - Create a new sketch in ArduinoDroid and paste the same code as above.  
-     ArduinoDroid இல் புதிய ஸ்கெட்சை உருவாக்கி, மேலே உள்ள அதே குறியீட்டை ஒட்டவும்.  
-   - Tap the upload button to program the ESP8266.  
-     ESP8266 ஐ நிரலாக்க பதிவேற்ற பொத்தானை தட்டவும்.
+   - ArduinoDroid இல் புதிய நிரல் வரைவை உருவாக்கி, மேலே உள்ள அதே குறியீட்டை ஒட்டவும் அல்லது நீங்கள் உங்கள் சொந்த குறியீட்டைப் பயன்படுத்தலாம்.
+     Create a new sketch in ArduinoDroid and paste the same code as above or you can use your own code.  
+   - ESP8266 ஐ நிரலாக்க பதிவேற்ற பொத்தானை தட்டவும்.
+     Tap the upload button to program the ESP8266.  
+     
