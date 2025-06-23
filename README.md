@@ -14,28 +14,18 @@ The LEDs are connected to GPIO pins, and the code toggles them on and off with a
 Flow Chart  
 ```mermaid
 graph TD
-    A[தொடங்கு] --> B[ESP8266 ஐ துவக்கு]  
-    A[Start] --> B[Initialize ESP8266]  
-    B --> C[GPIO பின்களை வெளியீடுகளாக அமை]  
-    B --> C[Configure GPIO pins as outputs]  
-    C --> D[லூப்: LED1 ஐ ஆன் செய்]  
-    C --> D[Loop: Turn LED1 ON]  
-    D --> E[500ms தாமதம்]  
-    D --> E[Delay 500ms]  
-    E --> F[LED1 ஐ ஆஃப் செய்]  
-    E --> F[Turn LED1 OFF]  
-    F --> G[LED2 ஐ ஆன் செய்]  
-    F --> G[Turn LED2 ON]  
-    G --> H[500ms தாமதம்]  
-    G --> H[Delay 500ms]  
-    H --> I[LED2 ஐ ஆஃப் செய்]  
-    H --> I[Turn LED2 OFF]  
-    I --> J[LED3 ஐ ஆன் செய்]  
-    I --> J[Turn LED3 ON]  
-    J --> K[500ms தாமதம்]  
-    J --> K[Delay 500ms]  
-    K --> L[LED3 ஐ ஆஃப் செய்]  
-    K --> L[Turn LED3 OFF]  
+    graph TD
+    A[Start / தொடங்கு] --> B[Initialize ESP8266 / ESP8266 ஐ துவக்கு]  
+    B --> C[Configure GPIO pins as outputs / GPIO பின்களை வெளியீடுகளாக அமை]  
+    C --> D[Loop: Turn LED1 ON / லூப்: LED1 ஐ ஆன் செய்]  
+    D --> E[Delay 500ms / 500ms தாமதம்]  
+    E --> F[Turn LED1 OFF / LED1 ஐ ஆஃப் செய்]  
+    F --> G[Turn LED2 ON / LED2 ஐ ஆன் செய்]  
+    G --> H[Delay 500ms / 500ms தாமதம்]  
+    H --> I[Turn LED2 OFF / LED2 ஐ ஆஃப் செய்]  
+    I --> J[Turn LED3 ON / LED3 ஐ ஆன் செய்]  
+    J --> K[Delay 500ms / 500ms தாமதம்]  
+    K --> L[Turn LED3 OFF / LED3 ஐ ஆஃப் செய்]  
     L --> D
 ```
 
@@ -132,36 +122,4 @@ Programming Using PlatformIO (VS Code)
      Open PlatformIO, click `New Project`, select your ESP8266 board (e.g., `NodeMCU`), and choose the Arduino framework.  
 3. **வன்பொருளை அமைக்கவும்**:  
    **Configure Hardware**:  
-   - மேலே விவரிக்கப்பட்டபடி LED-களை GPIO பின்களுடன் (எ.கா., D1, D2, D3) மின்தடையங்களுடன் இணைக்கவும்.  
-     Connect LEDs to GPIO pins (e.g., D1, D2, D3) with resistors, as described above.  
-4. **குறியீட்டை எழுதி பதிவேற்றவும்**:  
-   **Write and Upload Code**:  
-   - உங்கள் PlatformIO திட்டத்தில் `src/main.cpp` கோப்பை திறக்கவும்.  
-     Open the `src/main.cpp` file in your PlatformIO project.  
-   - மேலே உள்ள அதே குறியீட்டைப் பயன்படுத்தவும்.  
-     Use the same code as above.  
-   - ESP8266 ஐ நிரலாக்க PlatformIO `Upload` பொத்தானை கிளிக் செய்யவும்.  
-     Click the PlatformIO `Upload` button to program the ESP8266.  
-
-## ArduinoDroid ஐப் பயன்படுத்தி நிரலாக்கம்  
-Programming Using ArduinoDroid  
-1. **ArduinoDroid ஐ நிறுவவும்**:  
-   **Install ArduinoDroid**:  
-   - கூகுள் பிளே ஸ்டோரில் இருந்து ArduinoDroid ஐ பதிவிறக்கவும்.  
-     Download ArduinoDroid from the Google Play Store.  
-2. **போர்டு ஆதரவை அமைக்கவும்**:  
-   **Set Up Board Support**:  
-   - ArduinoDroid இல், `Settings > Board Type` க்கு சென்று, உங்கள் ESP8266 போர்டை தேர்ந்தெடுத்து, கேட்கப்பட்டால் ESP8266 தொகுப்பை நிறுவவும்.  
-     In ArduinoDroid, go to `Settings > Board Type`, select your ESP8266 board, and install the ESP8266 package if prompted.  
-3. **வன்பொருளை இணைக்கவும்**:  
-   **Connect Hardware**:  
-   - ESP8266 ஐ உங்கள் ஆண்ட்ராய்டு சாதனத்துடன் OTG கேபிள் மூலம் இணைக்கவும்.  
-     Use an OTG cable to connect the ESP8266 to your Android device.  
-   - LED-களை GPIO பின்களுடன் (எ.கா., D1, D2, D3) மின்தடையங்களுடன் இணைக்கவும்.  
-     Connect LEDs to GPIO pins (e.g., D1, D2, D3) with resistors.  
-4. **குறியீட்டை எழுதி பதிவேற்றவும்**:  
-   **Write and Upload Code**:  
-   - ArduinoDroid இல் புதிய ஸ்கெட்சை உருவாக்கி, மேலே உள்ள அதே குறியீட்டை ஒட்டவும்.  
-     Create a new sketch in ArduinoDroid and paste the same code as above.  
-   - ESP8266 ஐ நிரலாக்க பதிவேற்ற பொத்தானை தட்டவும்.  
-     Tap the upload button to program the ESP8266.
+   - மேல
