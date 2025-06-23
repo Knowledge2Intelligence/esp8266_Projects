@@ -4,14 +4,9 @@ Blinking Three LEDs Using ESP8266
 ## திட்டக் கண்ணோட்டம்  
 Project Overview 
 
-இந்தத் திட்டம் ESP8266 நுண்கட்டுப்படுத்தியுடன் இணைக்கப்பட்ட மூன்று LED-களை கட்டுப்படுத்தி, அவற்றை வரிசையாக ஒளிரச் செய்வதை விளக்குகிறது.  
-This project demonstrates how to control three LEDs connected to an ESP8266 microcontroller, making them blink in a sequential pattern. 
+இந்தத் திட்டம் ESP8266 நுண்கட்டுப்படுத்தியுடன் இணைக்கப்பட்ட மூன்று LED-களை கட்டுப்படுத்தி, அவற்றை வரிசையாக ஒளிரச் செய்வதை விளக்குகிறது. ESP8266 ஒரு பல்துறை Wi-Fi இயக்கப்பட்ட நுண்கட்டுப்படுத்தி ஆகும், மேலும் இந்தத் திட்டம் பல்வேறு மேம்பாட்டு சூழல்களைப் பயன்படுத்தி இதை நிரலாக்குவதற்கு ஆரம்பநிலையாளர்களுக்கு உகந்த அறிமுகமாக உள்ளது. LED-கள் GPIO மின்னியல் கொம்புகளுடன் இணைக்கப்பட்டுள்ளன, மேலும் குறியீடு அவற்றை குறிப்பிட்ட இடைவெளியுடன் இயக்கவும் அமர்த்தவும் செய்கிறது.
 
-ESP8266 ஒரு பல்துறை Wi-Fi இயக்கப்பட்ட நுண்கட்டுப்படுத்தி ஆகும், மேலும் இந்தத் திட்டம் பல்வேறு மேம்பாட்டு சூழல்களைப் பயன்படுத்தி இதை நிரலாக்குவதற்கு ஆரம்பநிலையாளர்களுக்கு உகந்த அறிமுகமாக உள்ளது.  
-The ESP8266 is a versatile Wi-Fi-enabled microcontroller, and this project serves as a beginner-friendly introduction to programming it using different development environments.  
-
-LED-கள் GPIO மின்னியல் கொம்புகளுடன் இணைக்கப்பட்டுள்ளன, மேலும் குறியீடு அவற்றை குறிப்பிட்ட இடைவெளியுடன் இயக்கவும் அமர்த்தவும் செய்கிறது.  
-The LEDs are connected to GPIO pins, and the code toggles them on and off with a specified delay.
+This project demonstrates how to control three LEDs connected to an ESP8266 microcontroller, making them blink in a sequential pattern. The ESP8266 is a versatile Wi-Fi-enabled microcontroller, and this project serves as a beginner-friendly introduction to programming it using different development environments. The LEDs are connected to GPIO pins, and the code toggles them on and off with a specified delay.
 
 ## செயல்வழிப் படம் 
 Flow Chart  
