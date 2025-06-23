@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Blinking_3_LEDs",
+			"path": "Blinking_3_LEDs"
+		},
+		{
+			"name": "02 Triple LED Momentary Switch Control with ESP8266",
+			"path": "../../../../../esp8266_Projects/02 Triple LED Momentary Switch Control with ESP8266"
+		}
+	],
+	"settings": {}
+}
