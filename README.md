@@ -34,15 +34,18 @@ graph TD
 Software Required  
 
 விண்டோஸ்
-Windows
+(Windows)
 
 - **Arduino IDE**: பதிப்பு 2.3.2 அல்லது அதற்கு மேல் ([arduino.cc](https://www.arduino.cc/en/software) இலிருந்து பதிவிறக்கவும்).  
   **Arduino IDE**: Version 2.3.2 or later (download from [arduino.cc](https://www.arduino.cc/en/software)). 
+
+  அல்லது (or)
+
 - **Visual Studio Code**: விஷுவல் ஸ்டுடியோ கோடு: code.visualstudio.com இலிருந்து பதிவிறக்கி, Extensions Marketplace இலிருந்து PlatformIO நீட்டிப்பை நிறுவவும்.
   **விஷுவல் ஸ்டுடியோ கோடு**: Visual Studio Code: Download from code.visualstudio.com and install the PlatformIO extension from the Extensions Marketplace.
-  
+
 ஆண்ட்ராய்டு
-Android
+(Android)
 - **ArduinoDroid**: ஆண்ட்ராய்டுக்கான மொபைல் பயன்பாடு (கூகுள் பிளே ஸ்டோரில் கிடைக்கும்).  
   **ArduinoDroid**: Mobile app for Android (available on Google Play Store).  
 
