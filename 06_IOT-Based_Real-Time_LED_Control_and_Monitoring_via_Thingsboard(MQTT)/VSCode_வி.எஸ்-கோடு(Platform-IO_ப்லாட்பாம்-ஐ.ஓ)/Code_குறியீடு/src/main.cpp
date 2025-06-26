@@ -9,11 +9,11 @@ void reconnect();
 String get_led_status();
 void set_led_status(int pin, boolean enabled);
 
-#define WIFI_AP "YOUR WIFI SSID"
-#define WIFI_PASSWORD "YOUR WIFI PASSWORD"
-#define TOKEN "YOUR TOKEN"
+#define WIFI_AP "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
+#define TOKEN "YOUR_THINGSBOARD_TOKEN"
 
-#define LED_PIN_0 D0 // GPIO16
+#define LED_PIN_0 D7 // GPIO13
 #define LED_PIN_1 D1 // GPIO5
 #define LED_PIN_2 D2 // GPIO4
 #define LED_CONTROL_PIN_0 0

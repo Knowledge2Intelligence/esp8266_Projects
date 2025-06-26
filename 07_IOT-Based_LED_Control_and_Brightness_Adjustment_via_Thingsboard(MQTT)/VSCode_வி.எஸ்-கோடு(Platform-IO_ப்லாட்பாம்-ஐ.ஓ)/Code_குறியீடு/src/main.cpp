@@ -10,9 +10,9 @@ String get_led_status();
 void set_led_status(int pin, boolean enabled);
 void set_led_brightness(int pin, int brightness);
 
-#define WIFI_AP "Your WIFI SSID"
-#define WIFI_PASSWORD "Your WIFI Password"
-#define TOKEN "Your ThingsBoard Device Tokens"
+#define WIFI_AP "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
+#define TOKEN "YOUR_THINGSBOARD_TOKEN"
 
 // PWM-capable GPIOs
 #define LED_PIN_0 D7  // GPIO13
